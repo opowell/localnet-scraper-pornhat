@@ -1,0 +1,16 @@
+{
+  "scrapers": [
+    {
+      "name": "PornHat",
+      "urlPattern": "pornhat.com",
+      "searchUrl": "https://www.pornhat.com/search/{term}/"
+    }
+  ],
+  "file": "pornhat.js",
+  "videos": [
+    {
+      "match": "^https://www\\.pornhat\\.com/embed/\\d+$",
+      "embed": true
+    }
+  ]
+}
